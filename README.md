@@ -4,7 +4,7 @@ A machine learning project built from scratch to predict diabetes risk using pub
 
 ## 📂 Project Structure
 
-
+```
 ml-handcraft-diabetes_prediction/
 ├── data/
 │ └── diabetes_binary_health_indicators_BRFSS2015.csv
@@ -22,7 +22,7 @@ ml-handcraft-diabetes_prediction/
 │ └── LeastSquare.py # Experiment script for OLS Linear Regression
 ├── .gitignore
 ├── README.md
-└── requirements.txt
+```
 ---
 
 ## 🧾 Dataset
@@ -87,7 +87,6 @@ Threshold selection designed around F2 score optimization
 Educational value: great for those learning model internals
 
 💻 Requirements
-See requirements.txt, but generally:
 
 Python ≥ 3.8
 
