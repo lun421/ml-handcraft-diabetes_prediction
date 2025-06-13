@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment folders
+.env/
+.venv/
+*.conda
+
+# Optional: data or model files
+*.pkl
+*.csv
