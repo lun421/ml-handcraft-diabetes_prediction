@@ -77,7 +77,7 @@ python experiment/LogisticGD.py
 # Least Squares Classification
 python experiment/LeastSquare.py
 
-📌 Key Highlights
+### 📌 Key Highlights
 No use of scikit-learn models — full low-level implementation
 
 Modular design: clean separation of models, preprocess, and evaluation
@@ -86,7 +86,7 @@ Threshold selection designed around F2 score optimization
 
 Educational value: great for those learning model internals
 
-💻 Requirements
+### 💻 Requirements
 
 Python ≥ 3.8
 
@@ -98,11 +98,11 @@ matplotlib
 
 seaborn
 
-🙏 Acknowledgements
+### 🙏 Acknowledgements
 Dataset from CDC: BRFSS 2015
 
 This project was built for academic purposes to understand model internals and evaluate classifier performance on public health data.
 
 
-📮 Contact
+### 📮 Contact
 For questions or suggestions, feel free to open an issue or contact me via GitHub.
