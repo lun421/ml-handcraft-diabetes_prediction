@@ -1,12 +1,17 @@
 # %%
-import pandas as pd
-import numpy as np
-from Preprocess import StratifiedSplitter, PartialStandardizer
-from Models import LogisticRegression, ConfusionEvaluator, FScoreThresholdAnalyzer, confusion_stats, plot_confusion_matrix
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 # %%
+import pandas as pd
+import numpy as np
+from preprocess.preprocess import StratifiedSplitter, PartialStandardizer
+from models.models import  LogisticRegression
+from evaluation.metrics import ConfusionEvaluator, confusion_stats
+from evaluation.threshold import FScoreThresholdAnalyzer, plot_confusion_matrix
+# %%
 # 讀取資料
-df = pd.read_csv('diabetes_binary_health_indicators_BRFSS2015.csv')
+df = pd.read_csv('../data/diabetes_binary_health_indicators_BRFSS2015.csv')
 
 # 預設trian:val:test = 6:2:2, seed = 42
 splitter = StratifiedSplitter(df)
