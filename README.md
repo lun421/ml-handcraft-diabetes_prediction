@@ -40,7 +40,7 @@ ml-handcraft-diabetes_prediction/
 ### ✅ Logistic Regression (Gradient Descent)
 - Binary cross-entropy loss
 - Early stopping with validation loss monitoring
-- Manual threshold tuning with F1/F2 optimization
+- Manual threshold tuning with F2 optimization
 
 ### ✅ Naive Bayes
 - Hybrid handling for both numeric (Gaussian) and binary (Bernoulli) features
@@ -55,8 +55,8 @@ ml-handcraft-diabetes_prediction/
 ## 📊 Evaluation Approach
 
 - Manual implementation of confusion matrix and evaluation metrics
-- Threshold sweeping to find optimal F1 / F2 scores
-- ROC/F-score plotting per model
+- Threshold sweeping to find optimal F2 scores
+- F2 score plotting per model
 - Emphasis on **Recall** and **F2 Score**, due to the public health context
 
 ---
