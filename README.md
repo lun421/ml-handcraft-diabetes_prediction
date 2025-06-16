@@ -27,7 +27,7 @@ ml-handcraft-diabetes_prediction/
 
 ## 🧾 Dataset
 
-- **Name:** [Behavioral Risk Factor Surveillance System (BRFSS) 2015](https://www.cdc.gov/brfss/index.html)
+- **Name:** [Behavioral Risk Factor Surveillance System (BRFSS) 2015]([https://www.cdc.gov/brfss/index.html](https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators)
 - **Source:** U.S. Centers for Disease Control and Prevention (CDC)
 - **Rows:** 253,680 individuals  
 - **Target Variable:** `Diabetes_binary` (1 if diagnosed with diabetes, 0 otherwise)  
