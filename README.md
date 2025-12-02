@@ -2,7 +2,7 @@
 
 A machine learning project built from scratch to predict diabetes risk using public health indicators, without relying on scikit-learn models. All models, training procedures, and evaluation metrics are manually implemented in Python.
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 ml-handcraft-diabetes_prediction/
@@ -25,7 +25,7 @@ ml-handcraft-diabetes_prediction/
 ```
 ---
 
-## 🧾 Dataset
+## Dataset
 
 - **Name:** [Behavioral Risk Factor Surveillance System (BRFSS) 2015]([https://www.cdc.gov/brfss/index.html](https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators)
 - **Source:** U.S. Centers for Disease Control and Prevention (CDC)
@@ -35,24 +35,24 @@ ml-handcraft-diabetes_prediction/
 
 ---
 
-## 🧪 Models Implemented (from scratch)
+## Models Implemented (from scratch)
 
-### ✅ Logistic Regression (Gradient Descent)
+### Logistic Regression (Gradient Descent)
 - Binary cross-entropy loss
 - Early stopping with validation loss monitoring
 - Manual threshold tuning with F2 optimization
 
-### ✅ Naive Bayes
+### Naive Bayes
 - Hybrid handling for both numeric (Gaussian) and binary (Bernoulli) features
 - Posterior-based prediction and interpretability
 
-### ✅ Linear Regression (Least Squares)
+### Linear Regression (Least Squares)
 - Closed-form OLS solution
 - Interpreted as a scoring model for classification (threshold optimization)
 
 ---
 
-## 📊 Evaluation Approach
+## Evaluation Approach
 
 - Manual implementation of confusion matrix and evaluation metrics
 - Threshold sweeping to find optimal F2 scores
@@ -61,7 +61,7 @@ ml-handcraft-diabetes_prediction/
 
 ---
 
-## 🛠️ How to Run
+## How to Run
 
 ### 1. Set working directory (in experiment scripts)
 ```python
@@ -78,7 +78,7 @@ python experiment/LogisticGD.py
 python experiment/LeastSquare.py
 ```
 
-📌 Key Highlights
+Key Highlights
 No use of scikit-learn models — full low-level implementation
 
 Modular design: clean separation of models, preprocess, and evaluation
@@ -87,7 +87,7 @@ Threshold selection designed around F2 score optimization
 
 Educational value: great for those learning model internals
 
-💻 Requirements
+Requirements
 
 Python ≥ 3.8
 
@@ -99,11 +99,7 @@ matplotlib
 
 seaborn
 
-🙏 Acknowledgements
+Acknowledgements
 Dataset from CDC: BRFSS 2015
 
 This project was built for academic purposes to understand model internals and evaluate classifier performance on public health data.
-
-
-📮 Contact
-For questions or suggestions, feel free to open an issue or contact me via GitHub.
